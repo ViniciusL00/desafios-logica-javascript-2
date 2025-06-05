@@ -1,7 +1,5 @@
 # 🚀 Segundo Desafio de Lógica de Programação – Parte 2
 
-Mais um passo dado nessa jornada braba rumo à maestria do JavaScript! Vamos revisar o que rolou neste desafio:
-
 ---
 
 ## 1️⃣ Função que exibe "Olá, mundo!" no console
