@@ -92,7 +92,7 @@ function mostrarTabuada(numero, limite) {
 }
 ```
 
-## 🏁 Conclusão Passo a Passo
+## 🏁 Conclusão:
 
 - ✅ **Entenda o problema:** Leia o que a função precisa fazer, quais dados recebe e o que deve retornar ou imprimir.
 - ✅ **Pegue a fórmula ou regra:** Se for cálculo, saiba a fórmula (IMC, área, fatorial, etc.).
@@ -100,4 +100,3 @@ function mostrarTabuada(numero, limite) {
 - ✅ **Trate casos especiais:** Como fatorial de 0 e 1, arredondamento, etc.
 - ✅ **Teste com exemplos:** Sempre chame a função com valores reais e veja se o resultado bate.
 - ✅ **Aprimore a saída:** Use `console.log` para mostrar o resultado ou `return` para devolver o valor (dependendo do uso).
-- ✅ **Repita o processo:** Cada desafio é um exercício de lógica e prática com funções, loops e operações matemáticas.
