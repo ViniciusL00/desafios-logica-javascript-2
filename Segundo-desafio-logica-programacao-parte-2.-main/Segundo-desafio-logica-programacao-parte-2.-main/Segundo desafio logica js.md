@@ -1,96 +1,113 @@
-# segundo-desafio-logica-programacao-parte-2.
- Segundo desafio de logica de programação com JavaScript parte 2.
+# 🚀 Segundo Desafio de Lógica de Programação – Parte 2
 
-1- Criar uma função que exibe "Olá, mundo!" no console.
+Mais um passo dado nessa jornada braba rumo à maestria do JavaScript! Vamos revisar o que rolou neste desafio:
 
-    function exibirOlaMundo(){
-    console.log('Olá, Mundo!'); // Função criada para exibir a mensagem Olá, Mundo!
+---
+
+## 1️⃣ Função que exibe "Olá, mundo!" no console
+
+```javascript
+function exibirOlaMundo(){
+    console.log('Olá, Mundo!'); // Função criada para exibir a mensagem
 }
 
-Quando você chamar a função exibirOlaMundo(), ela exibirá "Olá, mundo!" no console.
+exibirOlaMundo(); // Executa a função
+```
 
-    exibirOlaMundo(); // Função executada exibindo a mensagem no console.
+📌 **Explicação:**  
+Função simples que exibe uma mensagem no console. Sem segredos aqui.
 
-Essa função não recebe parâmetros e apenas executa o comando console.log() para mostrar a mensagem no console.
+---
 
-2- Criar uma função que recebe um nome como parâmetro e exibe "Olá, [nome]!" no console.
+## 2️⃣ Função que recebe um nome como parâmetro
 
-    function saudacao(nome){
+```javascript
+function saudacao(nome){
     console.log(`Olá, ${nome}`);
 }
 
-    saudacao('Pumpkinn');
+saudacao('Pumpkinn');
+```
 
-**Explicação:**
+📌 **Explicação:**  
+Recebe um nome e exibe ele com um "Olá". Simples, direto e elegante.
 
-A função saudacao recebe um parâmetro nome.
-Dentro da função, usamos a sintaxe de template string (${nome}) para inserir o valor do parâmetro nome na mensagem.
-Quando chamamos a função, passamos 'Pumpkinn' como argumento, e a função exibe "Olá, Pumpkinn!" no console.
+---
 
-3- Criar uma função que recebe um número como parâmetro e retorna o dobro desse número.
+## 3️⃣ Função que retorna o dobro de um número
 
-    function dobro(numero){
+```javascript
+function dobro(numero){
     return numero * 2; 
 }
 
-**Explicação:**
+let resultado = dobro(10); 
+console.log(resultado); // Exibe: 20
+```
 
-A função dobro recebe um parâmetro chamado numero.
-Dentro da função, multiplicamos o valor de numero por 2 e retornamos esse valor.
+📌 **Explicação:**  
+Multiplica o número por 2 e retorna o resultado. Fácil até de cabeça!
 
+---
 
-    let resultado = dobro(10); // o retorno do numero sera 20.
-        console.log(resultado); // exibe 20.
+## 4️⃣ Função que calcula a média de três números
 
-Quando você chama a função com o valor 10, o resultado retornado será 20, que é o dobro do número passado.
-
-4- Criar uma função que recebe três números como parâmetros e retorna a média deles.
-
-    function calcularMedia(num1, num2, num3){
+```javascript
+function calcularMedia(num1, num2, num3){
     let soma = num1 + num2 + num3;
     return soma / 3;
+}
+
+let media = calcularMedia(5, 7, 9); 
+console.log(media); // Exibe: 7
+```
+
+📌 **Explicação:**  
+Somou, dividiu por 3, entregou a média. Missão dada é missão cumprida!
+
+---
+
+## 5️⃣ Função que retorna o maior entre dois números
+
+```javascript
+function maiorNumero(num1, num2){
+    if(num1 > num2){
+        return num1;
+    } else {
+        return num2;
     }
+}
 
-**Explicação:**
+let resultado = maiorNumero(8, 5);
+console.log(resultado); // Exibe: 8
+```
 
-A função calcularMedia recebe três parâmetros: num1, num2 e num3.
-Dentro da função, somamos os três números e depois dividimos o resultado por 3 para calcular a média.
-O resultado da média é retornado pela função.   
+📌 **Explicação:**  
+Verifica qual número é maior. A função sempre retorna o grandão.
 
-    let media = calcularMedia(5, 7 , 9); // o retorno será: 7
-        console.log(media); // Exibe: 7
+---
 
-Quando você chama a função com os números 5, 7 e 9, a média será 7, que é o resultado da soma (5 + 7 + 9 = 21) dividida por 3.
+## 6️⃣ Função que retorna o número multiplicado por ele mesmo
 
-5- Criar uma função que recebe dois números como parâmetros e retorna o maior deles.
+```javascript
+function multiplicado(numero){
+    return numero * numero;
+}
 
-        function maiorNumero(num1, num2){
-        if(num1 > num2){
-            return num1;
-        } else {
-            return num2;
-        }
-    }
+let resultado = multiplicado(8);
+console.log(resultado); // Exibe: 64
+```
 
-**Explicação:** A função maiorNumero recebe dois parâmetros: num1 e num2.
-A função verifica se num1 é maior do que num2. Se for, ela retorna num1.
-Caso contrário, ela retorna num2.
+📌 **Explicação:**  
+Também conhecido como elevar ao quadrado. Boa pra cálculos matemáticos.
 
-    let resultado = maiorNumero(8, 5); // O retorno será: 8.
-    console.log(resultado); // Exibe: 8.
+---
 
-Nesse exemplo, o número 8 será retornado porque é o maior entre 8 e 5.
+## 📃 Conclusão:
 
-6- Criar uma função que recebe um número como parâmetro e retorna o resultado da multiplicação desse número por ele mesmo.
-
-    function multiplicado(numero){
-        return numero * numero;
-    }
-
-**Explicação:** A função multiplicado recebe um parâmetro chamado numero.
-Dentro da função, multiplicamos o numero por ele mesmo e retornamos o resultado.
-
-    let resultado = multiplicado(8); // O retorno será: 64.
-    console.log(resultado); // Exibe: 64
-
-Quando você chama a função com o número 8, o resultado será 64, que é o multiplicado de 8(8 * 8).
+- ✅ Função sem parâmetro: mostra como criar uma função simples que executa uma ação.
+- ✅ Função com parâmetro: ensina a passar informação para personalizar a saída.
+- ✅ Função com retorno: mostra como a função pode devolver um resultado para usar depois.
+- ✅ Função com múltiplos parâmetros: ensina a manipular vários dados e calcular média.
+- ✅ Função para comparar valores: ajuda a entender decisões lógicas dentro da função.
+- ✅ Função para cálculo matemático: mostra como criar funções que processam números e retornam resultados.
