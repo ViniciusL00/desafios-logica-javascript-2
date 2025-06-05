@@ -28,7 +28,7 @@ saudacao('Pumpkinn');
 ```
 
 📌 **Explicação:**  
-Recebe um nome e exibe ele com um "Olá". Simples, direto e elegante.
+Recebe um nome e exibe ele com um "Olá".
 
 ---
 
@@ -44,7 +44,7 @@ console.log(resultado); // Exibe: 20
 ```
 
 📌 **Explicação:**  
-Multiplica o número por 2 e retorna o resultado. Fácil até de cabeça!
+Multiplica o número por 2 e retorna o resultado.
 
 ---
 
@@ -61,7 +61,7 @@ console.log(media); // Exibe: 7
 ```
 
 📌 **Explicação:**  
-Somou, dividiu por 3, entregou a média. Missão dada é missão cumprida!
+Somou, dividiu por 3, entregou a média.
 
 ---
 
@@ -81,7 +81,7 @@ console.log(resultado); // Exibe: 8
 ```
 
 📌 **Explicação:**  
-Verifica qual número é maior. A função sempre retorna o grandão.
+Verifica qual número é maior.
 
 ---
 
