@@ -13,7 +13,7 @@ exibirOlaMundo(); // Executa a função
 ```
 
 📌 **Explicação:**  
-Função simples que exibe uma mensagem no console. Sem segredos aqui.
+Função simples que exibe uma mensagem no console.
 
 ---
 
